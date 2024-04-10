@@ -28,7 +28,7 @@ const float PURPLE[] = {1.28, 1.20, 0.94};
 const int ANGLES[] = {0, 45, 90, 135, 180};
 
 // Array of pointers to each color array for easier iteration
-const float* COLORS[] = {YELLOW, ORANGE};
+const float* COLORS[] = {YELLOW, ORANGE, YELLOW, GREEN, PURPLE}
 const int NUM_COLORS = sizeof(COLORS) / sizeof(COLORS[0]); // Number of color arrays
 
 void setup() {
